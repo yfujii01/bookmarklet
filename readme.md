@@ -1,0 +1,1 @@
+# Bookmarklet スクリプト変換
