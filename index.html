@@ -120,7 +120,7 @@ alert(new Date());</textarea
 
           s = s.replace("javascript:","");
           s = s.replace("void(0);","");
-          s = decodeURI(s);
+          s = decodeURIComponent(s);
           document.querySelector('#bookmarklet-script').value=s;
         }
 
